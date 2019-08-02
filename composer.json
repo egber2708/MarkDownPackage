@@ -1,0 +1,27 @@
+{
+    "name": "egber/press",
+    "description": "Elemento de prueba en la elaboracion de paquetes laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "egber2708",
+            "email": "egber27@hotmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "egber\\Press\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "egber\\Press\\test\\" : "test/"
+        }
+    }
+
+
+}
