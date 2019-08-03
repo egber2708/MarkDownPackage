@@ -8,13 +8,15 @@
             "email": "egber27@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
     "require-dev": {
         "orchestra/testbench": "^3.8"
     },
     "autoload": {
         "psr-4": {
-            "egber\\Press\\" : "src"
+            "egber\\Press\\" : "src/"
         }
     },
     "autoload-dev": {
