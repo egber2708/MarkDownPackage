@@ -27,6 +27,7 @@ class PressFileParser {
         return $this->raw_data;
     }
 
+
     public function splitFile(){
         preg_match('/^\-{3}(.*?)\-{3}(.*)/s', 
             File::exists($this->filename)?File::get($this->filename):$this->filename, 
@@ -55,10 +56,7 @@ class PressFileParser {
                 }
         }
         $this->data['extra'] = json_encode($extra);
- 
     }
-
-
 
 
 }

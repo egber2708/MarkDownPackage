@@ -2,8 +2,9 @@
 
 namespace egber\Press\Tests;
 
+use egber\Press\Test\TestCase;
 use egber\Press\MarkDownParser;
-use Orchestra\Testbench\TestCase;
+
 
 
 class MarkDownTest extends TestCase

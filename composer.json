@@ -21,8 +21,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "egber\\Press\\test\\" : "test/"
-        }
+            "egber\\Press\\Test\\" : "tests/"
+        },
+        "classmap": ["tests/TestCase.php"]
     }
 
 

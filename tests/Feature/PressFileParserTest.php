@@ -2,7 +2,7 @@
 
 namespace egber\Press\Tests;
 
-use Orchestra\Testbench\TestCase;
+use egber\Press\Test\TestCase;
 use egber\Press\PressFileParser;
 use Carbon\Carbon;
 
